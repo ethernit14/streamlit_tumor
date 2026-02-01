@@ -6,7 +6,7 @@ import joblib
 @st.cache_resource
 def load_data():
     # Make sure 'tumors_model.pkl' is in the same folder
-    return joblib.load('tumors_model.pkl')
+    return joblib.load('tumor_model.pkl')
 
 data = load_data()
 
