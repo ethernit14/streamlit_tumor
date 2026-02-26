@@ -46,7 +46,7 @@ if submit:
     inputs_scaled = (raw_inputs - data['means']) / data['devs']
     
     # Sigmoid Prediction (Logistic Regression)
-    z = np.dot(inputs_scaled, data['w']) + data['b']
+    z = np.dot(inputs_scaled, data['weights']) + data['bias']
     probability = 1 / (1 + np.exp(-z))
     
     # 4. Display Results
