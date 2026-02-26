@@ -13,7 +13,7 @@ data = load_data()
 # Page Configuration
 st.set_page_config(page_title="Tumor Classifier", page_icon="🧠")
 
-st.title("🧠 Zenitith AI: Tumor Classifier")
+st.title("🧠 umor Classifier")
 st.write("This model was trained using **Manual Gradient Descent** and **Feature Engineering**.")
 
 # 2. Collect Basic Inputs from User
